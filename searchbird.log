@@ -1,0 +1,226 @@
+INF [20140801-19:39:02.880] stats: Starting LatchedStatsListener
+700 [20140801-19:39:02.931] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140801-19:39:02.936] net: context created: /
+700 [20140801-19:39:02.937] net: context created: /report/
+700 [20140801-19:39:02.938] net: context created: /favicon.ico
+700 [20140801-19:39:02.938] net: context created: /static
+700 [20140801-19:39:02.939] net: context created: /pprof/heap
+700 [20140801-19:39:02.940] net: context created: /pprof/profile
+700 [20140801-19:39:02.941] net: context created: /pprof/contention
+700 [20140801-19:39:02.941] net: context created: /tracing
+700 [20140801-19:39:02.946] net: context created: /graph/
+700 [20140801-19:39:02.947] net: context created: /graph_data
+INF [20140801-19:39:02.947] admin: Starting TimeSeriesCollector
+INF [20140801-19:39:02.948] admin: Admin HTTP interface started on port 9900.
+INF [20140801-19:39:02.964] searchbird: Starting SearchbirdService
+DEB [20140801-19:39:03.115] nio: Using the autodetected NIO constraint level: 0
+DEB [20140801-19:42:58.517] searchbird: put maruis
+DEB [20140801-19:43:16.518] searchbird: put stevej
+DEB [20140801-19:43:43.368] searchbird: get maruis: hit
+DEB [20140801-19:43:58.535] searchbird: get maruis: hit
+DEB [20140801-19:44:38.177] searchbird: get stevej: hit
+DEB [20140801-19:45:47.470] net: GET /stats.txt HTTP/1.1 [200  OK] ()
+INF [20140801-21:31:08.852] stats: Starting LatchedStatsListener
+700 [20140801-21:31:08.878] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140801-21:31:08.883] net: context created: /
+700 [20140801-21:31:08.884] net: context created: /report/
+700 [20140801-21:31:08.885] net: context created: /favicon.ico
+700 [20140801-21:31:08.885] net: context created: /static
+700 [20140801-21:31:08.886] net: context created: /pprof/heap
+700 [20140801-21:31:08.887] net: context created: /pprof/profile
+700 [20140801-21:31:08.888] net: context created: /pprof/contention
+700 [20140801-21:31:08.889] net: context created: /tracing
+700 [20140801-21:31:08.895] net: context created: /graph/
+700 [20140801-21:31:08.896] net: context created: /graph_data
+INF [20140801-21:31:08.896] admin: Starting TimeSeriesCollector
+INF [20140801-21:31:08.906] admin: Admin HTTP interface started on port 9900.
+INF [20140801-21:31:08.915] searchbird: Starting SearchbirdService
+DEB [20140801-21:31:09.024] nio: Using the autodetected NIO constraint level: 0
+DEB [20140801-21:31:57.292] searchbird: put basics
+DEB [20140801-21:31:57.327] searchbird: put basics
+DEB [20140801-21:31:57.498] searchbird: put collections
+DEB [20140801-21:31:57.640] searchbird: put pattern
+DEB [20140801-21:31:57.804] searchbird: put type
+DEB [20140801-21:31:58.081] searchbird: put advanced
+DEB [20140801-21:31:58.233] searchbird: put simple
+DEB [20140801-21:31:58.388] searchbird: put more
+DEB [20140801-21:31:58.556] searchbird: put testing
+DEB [20140801-21:31:58.686] searchbird: put concurrency
+DEB [20140801-21:31:58.794] searchbird: put java
+DEB [20140801-21:32:01.522] searchbird: put searchbird
+INF [20140802-14:07:09.350] stats: Starting LatchedStatsListener
+FAT [20140802-14:07:09.366] (root): Error in config file: config/development.scala
+FAT [20140802-14:07:09.366] (root): java.net.BindException: Address already in use
+FAT [20140802-14:07:09.366] (root):     at sun.nio.ch.Net.bind(Native Method)
+FAT [20140802-14:07:09.366] (root):     at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:124)
+FAT [20140802-14:07:09.366] (root):     at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:59)
+FAT [20140802-14:07:09.366] (root):     at sun.net.httpserver.ServerImpl.<init>(ServerImpl.java:67)
+FAT [20140802-14:07:09.366] (root):     at sun.net.httpserver.HttpServerImpl.<init>(HttpServerImpl.java:32)
+FAT [20140802-14:07:09.366] (root):     at sun.net.httpserver.DefaultHttpServerProvider.createHttpServer(DefaultHttpServerProvider.java:17)
+FAT [20140802-14:07:09.366] (root):     at com.sun.net.httpserver.HttpServer.create(HttpServer.java:111)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.AdminHttpService.<init>(AdminHttpService.scala:330)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.AdminServiceConfig$$anonfun$apply$6$$anonfun$apply$9.apply(AdminServiceConfig.scala:132)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.AdminServiceConfig$$anonfun$apply$6$$anonfun$apply$9.apply(AdminServiceConfig.scala:130)
+FAT [20140802-14:07:09.366] (root):     at scala.Option.map(Option.scala:133)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.AdminServiceConfig$$anonfun$apply$6.apply(AdminServiceConfig.scala:130)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.AdminServiceConfig$$anonfun$apply$6.apply(AdminServiceConfig.scala:124)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.ServerConfig$$anonfun$apply$1.apply(ServerConfig.scala:34)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.config.ServerConfig$$anonfun$apply$1.apply(ServerConfig.scala:32)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.ostrich.admin.RuntimeEnvironment.loadRuntimeConfig(RuntimeEnvironment.scala:252)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.searchbird.Main$.main(Main.scala:11)
+FAT [20140802-14:07:09.366] (root):     at com.twitter.searchbird.Main.main(Main.scala)
+FAT [20140802-14:07:09.366] (root):     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+FAT [20140802-14:07:09.366] (root):     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+FAT [20140802-14:07:09.366] (root):     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+FAT [20140802-14:07:09.366] (root):     at java.lang.reflect.Method.invoke(Method.java:597)
+FAT [20140802-14:07:09.366] (root):     at sbt.Run.invokeMain(Run.scala:66)
+FAT [20140802-14:07:09.366] (root):     at sbt.Run.run0(Run.scala:59)
+FAT [20140802-14:07:09.366] (root):     at sbt.Run.execute$1(Run.scala:48)
+FAT [20140802-14:07:09.366] (root):     at sbt.Run$$anonfun$run$1.apply$mcV$sp(Run.scala:52)
+FAT [20140802-14:07:09.366] (root):     at sbt.TrapExit$.executeMain$1(TrapExit.scala:33)
+FAT [20140802-14:07:09.366] (root):     at sbt.TrapExit$$anon$1.run(TrapExit.scala:42)
+INF [20140802-14:07:09.369] stats: LatchedStatsListener exiting by request.
+INF [20140802-14:07:09.373] stats: LatchedStatsListener exiting.
+INF [20140802-14:08:01.311] stats: Starting LatchedStatsListener
+700 [20140802-14:08:01.321] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-14:08:01.325] net: context created: /
+700 [20140802-14:08:01.326] net: context created: /report/
+700 [20140802-14:08:01.327] net: context created: /favicon.ico
+700 [20140802-14:08:01.328] net: context created: /static
+700 [20140802-14:08:01.328] net: context created: /pprof/heap
+700 [20140802-14:08:01.329] net: context created: /pprof/profile
+700 [20140802-14:08:01.330] net: context created: /pprof/contention
+700 [20140802-14:08:01.331] net: context created: /tracing
+700 [20140802-14:08:01.335] net: context created: /graph/
+700 [20140802-14:08:01.336] net: context created: /graph_data
+INF [20140802-14:08:01.336] admin: Starting TimeSeriesCollector
+INF [20140802-14:08:01.338] admin: Admin HTTP interface started on port 9900.
+INF [20140802-14:08:01.348] searchbird: Starting SearchbirdService
+DEB [20140802-14:08:01.460] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-14:08:51.871] searchbird: get hi: miss
+DEB [20140802-14:08:57.085] searchbird: get hi: miss
+DEB [20140802-14:09:53.662] searchbird: put record1
+DEB [20140802-14:10:04.635] searchbird: put record2
+DEB [20140802-14:10:49.494] searchbird: put record1
+DEB [20140802-14:19:26.772] searchbird: get record1: hit
+DEB [20140802-14:19:30.091] searchbird: get record1: hit
+DEB [20140802-14:19:37.185] searchbird: get record2: hit
+INF [20140802-14:34:17.084] stats: Starting LatchedStatsListener
+700 [20140802-14:34:17.109] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-14:34:17.114] net: context created: /
+700 [20140802-14:34:17.115] net: context created: /report/
+700 [20140802-14:34:17.116] net: context created: /favicon.ico
+700 [20140802-14:34:17.117] net: context created: /static
+700 [20140802-14:34:17.118] net: context created: /pprof/heap
+700 [20140802-14:34:17.119] net: context created: /pprof/profile
+700 [20140802-14:34:17.120] net: context created: /pprof/contention
+700 [20140802-14:34:17.121] net: context created: /tracing
+700 [20140802-14:34:17.127] net: context created: /graph/
+700 [20140802-14:34:17.130] net: context created: /graph_data
+INF [20140802-14:34:17.130] admin: Starting TimeSeriesCollector
+INF [20140802-14:34:17.132] admin: Admin HTTP interface started on port 9900.
+INF [20140802-14:34:17.141] searchbird: Starting SearchbirdService
+DEB [20140802-14:34:17.258] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-14:34:56.560] searchbird: put record1
+DEB [20140802-14:35:06.675] searchbird: put record2
+DEB [20140802-14:35:14.650] searchbird: put record2
+DEB [20140802-14:36:19.152] searchbird: get record1: hit
+DEB [20140802-14:36:23.678] searchbird: get record2: hit
+INF [20140802-14:41:19.505] stats: Starting LatchedStatsListener
+700 [20140802-14:41:19.528] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-14:41:19.533] net: context created: /
+700 [20140802-14:41:19.534] net: context created: /report/
+700 [20140802-14:41:19.536] net: context created: /favicon.ico
+700 [20140802-14:41:19.537] net: context created: /static
+700 [20140802-14:41:19.539] net: context created: /pprof/heap
+700 [20140802-14:41:19.540] net: context created: /pprof/profile
+700 [20140802-14:41:19.541] net: context created: /pprof/contention
+700 [20140802-14:41:19.542] net: context created: /tracing
+700 [20140802-14:41:19.546] net: context created: /graph/
+700 [20140802-14:41:19.547] net: context created: /graph_data
+INF [20140802-14:41:19.548] admin: Starting TimeSeriesCollector
+INF [20140802-14:41:19.549] admin: Admin HTTP interface started on port 9900.
+INF [20140802-14:41:19.578] searchbird: Starting SearchbirdService
+DEB [20140802-14:41:19.705] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-14:41:51.479] searchbird: put record1
+DEB [20140802-14:42:02.795] searchbird: put record2
+DEB [20140802-14:45:21.619] searchbird: put record2
+INF [20140802-15:06:48.760] stats: Starting LatchedStatsListener
+700 [20140802-15:06:48.783] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-15:06:48.788] net: context created: /
+700 [20140802-15:06:48.789] net: context created: /report/
+700 [20140802-15:06:48.790] net: context created: /favicon.ico
+700 [20140802-15:06:48.791] net: context created: /static
+700 [20140802-15:06:48.792] net: context created: /pprof/heap
+700 [20140802-15:06:48.793] net: context created: /pprof/profile
+700 [20140802-15:06:48.794] net: context created: /pprof/contention
+700 [20140802-15:06:48.795] net: context created: /tracing
+700 [20140802-15:06:48.800] net: context created: /graph/
+700 [20140802-15:06:48.801] net: context created: /graph_data
+INF [20140802-15:06:48.801] admin: Starting TimeSeriesCollector
+INF [20140802-15:06:48.803] admin: Admin HTTP interface started on port 9900.
+INF [20140802-15:06:48.811] searchbird: Starting SearchbirdService
+DEB [20140802-15:06:48.930] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-15:07:19.285] searchbird: put record1
+DEB [20140802-15:07:29.629] searchbird: put record1
+DEB [20140802-15:08:18.151] searchbird: put record2
+DEB [20140802-15:08:34.105] searchbird: put record2
+INF [20140802-15:20:51.242] stats: Starting LatchedStatsListener
+700 [20140802-15:20:51.266] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-15:20:51.271] net: context created: /
+700 [20140802-15:20:51.272] net: context created: /report/
+700 [20140802-15:20:51.272] net: context created: /favicon.ico
+700 [20140802-15:20:51.273] net: context created: /static
+700 [20140802-15:20:51.274] net: context created: /pprof/heap
+700 [20140802-15:20:51.275] net: context created: /pprof/profile
+700 [20140802-15:20:51.276] net: context created: /pprof/contention
+700 [20140802-15:20:51.277] net: context created: /tracing
+700 [20140802-15:20:51.282] net: context created: /graph/
+700 [20140802-15:20:51.283] net: context created: /graph_data
+INF [20140802-15:20:51.283] admin: Starting TimeSeriesCollector
+INF [20140802-15:20:51.285] admin: Admin HTTP interface started on port 9900.
+INF [20140802-15:20:51.294] searchbird: Starting SearchbirdService
+DEB [20140802-15:20:51.426] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-15:21:18.770] searchbird: put record1
+DEB [20140802-15:22:24.582] searchbird: put record2
+DEB [20140802-15:23:43.749] searchbird: put record2
+INF [20140802-15:32:15.960] stats: Starting LatchedStatsListener
+700 [20140802-15:32:15.984] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-15:32:15.989] net: context created: /
+700 [20140802-15:32:15.990] net: context created: /report/
+700 [20140802-15:32:15.991] net: context created: /favicon.ico
+700 [20140802-15:32:15.992] net: context created: /static
+700 [20140802-15:32:15.993] net: context created: /pprof/heap
+700 [20140802-15:32:15.994] net: context created: /pprof/profile
+700 [20140802-15:32:15.994] net: context created: /pprof/contention
+700 [20140802-15:32:15.995] net: context created: /tracing
+700 [20140802-15:32:16.000] net: context created: /graph/
+700 [20140802-15:32:16.001] net: context created: /graph_data
+INF [20140802-15:32:16.002] admin: Starting TimeSeriesCollector
+INF [20140802-15:32:16.009] admin: Admin HTTP interface started on port 9900.
+INF [20140802-15:32:16.019] searchbird: Starting SearchbirdService
+DEB [20140802-15:32:16.136] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-15:32:46.507] searchbird: put record1
+DEB [20140802-15:32:52.271] searchbird: put record2
+DEB [20140802-15:32:59.934] searchbird: put record2
+INF [20140802-15:55:55.697] stats: Starting LatchedStatsListener
+700 [20140802-15:55:55.721] net: HttpServer created http 0.0.0.0/0.0.0.0:9900
+700 [20140802-15:55:55.726] net: context created: /
+700 [20140802-15:55:55.727] net: context created: /report/
+700 [20140802-15:55:55.728] net: context created: /favicon.ico
+700 [20140802-15:55:55.729] net: context created: /static
+700 [20140802-15:55:55.730] net: context created: /pprof/heap
+700 [20140802-15:55:55.731] net: context created: /pprof/profile
+700 [20140802-15:55:55.732] net: context created: /pprof/contention
+700 [20140802-15:55:55.733] net: context created: /tracing
+700 [20140802-15:55:55.738] net: context created: /graph/
+700 [20140802-15:55:55.739] net: context created: /graph_data
+INF [20140802-15:55:55.739] admin: Starting TimeSeriesCollector
+INF [20140802-15:55:55.753] admin: Admin HTTP interface started on port 9900.
+INF [20140802-15:55:55.764] searchbird: Starting SearchbirdService
+DEB [20140802-15:55:55.880] nio: Using the autodetected NIO constraint level: 0
+DEB [20140802-15:56:21.741] searchbird: get hi: miss
+DEB [20140802-15:56:27.178] searchbird: get hi: miss
+DEB [20140802-15:56:44.407] searchbird: put win
+DEB [20140802-15:56:51.065] searchbird: get win: hit
+DEB [20140802-15:56:53.977] searchbird: get win: hit
