@@ -12,7 +12,13 @@ new SearchbirdServiceConfig {
   thriftPort = 9999
 
   // Ostrich http admin port.  Curl this for stats, etc
-  admin.httpPort = 9900
+  //admin.httpPort = 9900
+
+  shards = Seq(
+    "localhost:9000",
+    "localhost:9001",
+    "localhost:9002"
+  )
 
   // End user configuration
 
